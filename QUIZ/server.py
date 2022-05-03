@@ -6,6 +6,13 @@ import random
 socket_servidor = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 socket_servidor.bind((localhost, port))
 
+def main():
+
+    class server:
+        def __init__(self, ip, porta):
+            self.ip = ip
+            self.porta = porta
+		
 
 def msg(msg,root):
 	codmsg= msg.encode()
