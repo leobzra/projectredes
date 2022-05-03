@@ -21,6 +21,12 @@
         const dados = JSON.parse(message.data);
         if (dados.type === 'chat'){
             output.append('Outro:' + dados.text , document.createElement('br'));
+        if error == '505':
+            print('erro 505')
+        if error = '404':
+            print('400 Bad Request')
+        if error = '400':
+            print('404 Not Found')
 
         }
     });
